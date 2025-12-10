@@ -129,3 +129,4 @@ As found in requirements.txt:
  - scikit-learn==1.4.1.post1
  - xgboost==2.0.3
 
+Live URL: https://nocodemlmodeltrainingsystem-1.streamlit.app/
