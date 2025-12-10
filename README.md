@@ -7,99 +7,98 @@ This project includes a beautiful custom UI, automatic missing value handling, o
 📂 Project Structure
 
 No Code ML Model Training System/
-│── main.py               # Main Streamlit application
-│── ml_utility.py         # Data reading, preprocessing, model training utilities
-│── styles.css            # Custom theme & UI styling (dark violet/aqua theme)
-│── requirements.txt      # Required Python libraries
-│── Images/               # (Optional) App screenshots
+ - main.py               # Main Streamlit application
+ - ml_utility.py         # Data reading, preprocessing, model training utilities
+ - styles.css            # Custom theme & UI styling (dark violet/aqua theme)
+ - requirements.txt      # Required Python libraries
+ - Images/               # (Optional) App screenshots
 
 ✨ Key Features
 📂 1. Upload Any Dataset
-── Accepts CSV, XLS, XLSX
-── Auto-detects file type
-── Displays first preview
-── Shows dataset structure
+ - Accepts CSV, XLS, XLSX
+ - Auto-detects file type
+ - Displays first preview
+ - Shows dataset structure
 
 📊 2. Dataset Overview & Cleaning
-── The app automatically shows:
-    ── Total rows
-    ── Total columns
-    ── Duplicate rows
-    ── Total missing values
+ - The app automatically shows:
+    - Total rows
+    - Total columns
+    - Duplicate rows
+    - Total missing values
 
-── Missing Value Handling:
-    ── User chooses how to fill missing values:
-    ── Mean
-    ── Median
-    ── Mode
+ - Missing Value Handling:
+    - User chooses how to fill missing values:
+    - Mean
+    - Median
+    - Mode
 
-── Summary table shows:
-    ── Column name
-    ── Method used
-    ── Fill value
+ - Summary table shows:
+    - Column name
+    - Method used
+    - Fill value
 
-── Dataset Cleaning:
-    ── Removes duplicate rows
-    ── User can preview cleaned dataset
+ - Dataset Cleaning:
+    - Removes duplicate rows
+    - User can preview cleaned dataset
 
-── Download:
-    ── One-click download of cleaned dataset (dataset_cleaned.csv)
+ - Download:
+    - One-click download of cleaned dataset (dataset_cleaned.csv)
 
 ⚙️ 3. ML Model Configuration
-
 After cleaning, users can configure:
 
 Target Column
-── Choose any column as the prediction label.
+ - Choose any column as the prediction label.
   
 Model Selection
 Available ML Models:
-── Logistic Regression
-── Support Vector Classifier (SVC)
-── Random Forest
-── Decision Tree
-── KNN
-── Gradient Boosting
-── XGBoost
+ - Logistic Regression
+ - Support Vector Classifier (SVC)
+ - Random Forest
+ - Decision Tree
+ - KNN
+ - Gradient Boosting
+ - XGBoost
 
 Feature Scaling
-── Standard Scaler
-── MinMax Scaler
+ - Standard Scaler
+ - MinMax Scaler
 
 Train/Test Split
-── Slider for choosing split ratio (60%–90% training)
+ - Slider for choosing split ratio (60%–90% training)
 
 Random State
-── Ensures reproducibility
+ - Ensures reproducibility
 
 🚀 4. Train & Evaluate ML Models
 With one click:
-── Data is preprocessed:
-    ── One-hot encoding for categoricals
-    ── Label encoding for target (if needed)
-    ── Scaling using Standard/MinMax
-── Train-test split
-── Model fit & evaluation
-── Final accuracy displayed as metric card
+ - Data is preprocessed:
+    - One-hot encoding for categoricals
+    - Label encoding for target (if needed)
+    - Scaling using Standard/MinMax
+ - Train-test split
+ - Model fit & evaluation
+ - Final accuracy displayed as metric card
 
 Output includes:
-── Accuracy score (%)
-── Model details
-── Summary of configuration used
+ - Accuracy score (%)
+ - Model details
+ - Summary of configuration used
 
 🎨 UI & Theme
-── Custom styles.css creates a modern neon-violet theme:
-── Gradient background
-── Aqua glowing headings
-── Styled buttons
-── CSS-polished input fields
-── Animated hover effects
-── Branded metric cards
-── Clean dark-themed tables
+ - Custom styles.css creates a modern neon-violet theme:
+ - Gradient background
+ - Aqua glowing headings
+ - Styled buttons
+ - CSS-polished input fields
+ - Animated hover effects
+ - Branded metric cards
+ - Clean dark-themed tables
 
 🛠 Installation
 Install dependencies
-  ── pip install -r requirements.txt
+  - pip install -r requirements.txt
 
 ▶️ Run the Application
 streamlit run main.py
