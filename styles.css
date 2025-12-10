@@ -1,0 +1,132 @@
+/*
+ * ✨ DEEP VIOLET & AQUA SYNTHESIS THEME — FINAL VERSION ✨
+ * Includes: No-border inputs, download button hover fix, model config design, spacing polish
+ */
+
+/* ---------- 🌌 Main Page Background & Font ---------- */
+.stApp {
+    background: linear-gradient(155deg, #10052B 0%, #1E0D45 70%, #10052B 100%);
+    color: #EFEFEF;
+    font-family: 'Segoe UI', 'Roboto', sans-serif;
+}
+
+/* ---------- Title ---------- */
+h1 {
+    text-align: center;
+    color: #00FFFF !important;
+    font-size: 56px !important;
+    font-weight: 800 !important;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    text-shadow: 0 0 10px rgba(0, 255, 255, 0.6);
+}
+
+/* ---------- Section Title ---------- */
+.section-title {
+    font-size: 32px;
+    font-weight: 700;
+    color: #FFB347;
+    margin-bottom: 28px;
+    padding: 10px 0;
+    border-bottom: 3px solid #00FFFF;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* ---------- Input Labels ---------- */
+.stSelectbox label,
+.stSlider label,
+.stNumberInput label,
+.stFileUploader label,
+.stMultiselect label {
+    color: #FFB347 !important;
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+/* 🔥 Completely remove border from input containers */
+input, textarea,
+.stTextInput, .stSelectbox, .stNumberInput, .stMultiselect {
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+    background: #150833 !important;
+    color: #FFFFFF !important;
+    border-radius: 6px !important;
+}
+
+/* Remove dropdown border for selectbox */
+div[data-baseweb="select"] > div {
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+    background: #150833 !important;
+}
+
+/* Remove focus highlight */
+*:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+/* ---------- DataFrame ---------- */
+.stDataFrame {
+    background: #150833;
+    border: 2px solid #00FFFF;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+    margin: 15px 0 25px 0;
+}
+
+/* ---------- Metric Cards ---------- */
+.stMetric {
+    background: #150833;
+    border: 2px solid #FFB347;
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: 0 0 10px rgba(255, 179, 71, 0.6);
+    transition: 0.3s;
+}
+.stMetric:hover {
+    transform: scale(1.03);
+    border-color: #00FFFF;
+    box-shadow: 0 0 15px rgba(0, 255, 255, 0.8);
+}
+
+/* ---------- Download Button ---------- */
+.stDownloadButton button {
+    background-color: #FFB347 !important;
+    color: #120530 !important;
+    border-radius: 8px !important;
+    font-weight: 700 !important;
+    padding: 12px 32px !important;
+    border: 1px solid #FFB347 !important;
+    box-shadow: 0 5px 15px rgba(255, 179, 71, 0.5);
+}
+.stDownloadButton button:hover {
+    background-color: #E37F00 !important;
+    color: #FFFFFF !important;
+    transform: translateY(-2px);
+    box-shadow: 0 0 12px rgba(255, 184, 76, 0.85);
+}
+
+/* ---------- Train Button ---------- */
+button[kind="primary"] {
+    font-size: 24px !important;
+    border-radius: 40px !important;
+    background: linear-gradient(90deg, #00FFFF 0%, #1E0D45 100%) !important;
+    color: #10052B !important;
+    padding: 15px 50px !important;
+    box-shadow: 0 5px 20px rgba(0, 255, 255, 0.5);
+}
+button[kind="primary"]:hover {
+    background: linear-gradient(90deg, #1E0D45 0%, #00FFFF 100%) !important;
+    color: #FFFFFF !important;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 30px rgba(0, 255, 255, 0.8);
+}
+
+/* ---------- Page Layout Padding ---------- */
+.block-container {
+    padding-top: 20px !important;
+}
