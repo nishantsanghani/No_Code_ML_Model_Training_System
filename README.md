@@ -105,27 +105,27 @@ streamlit run main.py
 
 📘 How to Use the App
 Step 1: Upload a CSV/XLS/XLSX file
-→ Preview loads automatically.
+ - Preview loads automatically.
 
 Step 2: Clean the data
-→ Fill missing values per-column.
-→ Review the cleaned dataset.
-→ Download cleaned file if needed.
+ - Fill missing values per-column.
+ - Review the cleaned dataset.
+ - Download cleaned file if needed.
 
 Step 3: Configure ML model
-→ Select target column, ML model, scaler, split ratio.
+ - Select target column, ML model, scaler, split ratio.
 
 Step 4: Train Model
-→ Click Train Model and Evaluate
-→ See accuracy in real-time.
+ - Click Train Model and Evaluate
+ - See accuracy in real-time.
 
 📦 Requirements
 As found in requirements.txt:
-streamlit==1.32.2
-streamlit-option-menu==0.3.12
-pandas>=1.3.0
-openpyxl==3.1.2
-xlrd==2.0.1
-scikit-learn==1.4.1.post1
-xgboost==2.0.3
+ - streamlit==1.32.2
+ - streamlit-option-menu==0.3.12
+ - pandas>=1.3.0
+ - openpyxl==3.1.2
+ - xlrd==2.0.1
+ - scikit-learn==1.4.1.post1
+ - xgboost==2.0.3
 
